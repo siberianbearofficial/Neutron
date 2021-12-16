@@ -1,0 +1,4072 @@
+fileFormatVersion: 2
+guid: 0335c6e6279bf604692cc7c6d31d9282
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7481496931323412334
+    second: NTO_GAME_SPRITE_FILE (2)_0
+  - first:
+      213: -6430291419933742146
+    second: NTO_GAME_SPRITE_FILE (2)_1
+  - first:
+      213: -7849274838476541928
+    second: NTO_GAME_SPRITE_FILE (2)_2
+  - first:
+      213: 1484792239397616963
+    second: NTO_GAME_SPRITE_FILE (2)_3
+  - first:
+      213: 3852269197563748822
+    second: NTO_GAME_SPRITE_FILE (2)_4
+  - first:
+      213: 8286265826339735363
+    second: NTO_GAME_SPRITE_FILE (2)_5
+  - first:
+      213: 7357859654532098702
+    second: NTO_GAME_SPRITE_FILE (2)_6
+  - first:
+      213: -795801707177091191
+    second: NTO_GAME_SPRITE_FILE (2)_7
+  - first:
+      213: 1188329311194768698
+    second: NTO_GAME_SPRITE_FILE (2)_8
+  - first:
+      213: 565205339029671554
+    second: NTO_GAME_SPRITE_FILE (2)_9
+  - first:
+      213: 4281532664409631764
+    second: NTO_GAME_SPRITE_FILE (2)_10
+  - first:
+      213: 2639820218435205314
+    second: NTO_GAME_SPRITE_FILE (2)_11
+  - first:
+      213: 3272999101049128889
+    second: NTO_GAME_SPRITE_FILE (2)_12
+  - first:
+      213: 8838303675632406754
+    second: NTO_GAME_SPRITE_FILE (2)_13
+  - first:
+      213: 35597336354858060
+    second: NTO_GAME_SPRITE_FILE (2)_14
+  - first:
+      213: -6848432131930068147
+    second: NTO_GAME_SPRITE_FILE (2)_15
+  - first:
+      213: -7567799470947785746
+    second: NTO_GAME_SPRITE_FILE (2)_16
+  - first:
+      213: -1648630479791818039
+    second: NTO_GAME_SPRITE_FILE (2)_17
+  - first:
+      213: 4955095810725297890
+    second: NTO_GAME_SPRITE_FILE (2)_18
+  - first:
+      213: 5796565510061995568
+    second: NTO_GAME_SPRITE_FILE (2)_19
+  - first:
+      213: 7159192456499801594
+    second: NTO_GAME_SPRITE_FILE (2)_20
+  - first:
+      213: 9186558484852898855
+    second: NTO_GAME_SPRITE_FILE (2)_21
+  - first:
+      213: 5099400946244936629
+    second: NTO_GAME_SPRITE_FILE (2)_22
+  - first:
+      213: -2904391940272423179
+    second: NTO_GAME_SPRITE_FILE (2)_23
+  - first:
+      213: -1290248870475971116
+    second: NTO_GAME_SPRITE_FILE (2)_24
+  - first:
+      213: 6278030673116223589
+    second: NTO_GAME_SPRITE_FILE (2)_25
+  - first:
+      213: -104712843026322429
+    second: NTO_GAME_SPRITE_FILE (2)_26
+  - first:
+      213: -3324298432685173937
+    second: NTO_GAME_SPRITE_FILE (2)_27
+  - first:
+      213: -274751684346433024
+    second: NTO_GAME_SPRITE_FILE (2)_28
+  - first:
+      213: 1768465788209325941
+    second: NTO_GAME_SPRITE_FILE (2)_29
+  - first:
+      213: -538672310199036590
+    second: NTO_GAME_SPRITE_FILE (2)_30
+  - first:
+      213: 7113177160274040870
+    second: NTO_GAME_SPRITE_FILE (2)_31
+  - first:
+      213: -9133186413942321899
+    second: NTO_GAME_SPRITE_FILE (2)_32
+  - first:
+      213: -1399998180155093101
+    second: NTO_GAME_SPRITE_FILE (2)_33
+  - first:
+      213: -496948730863046139
+    second: NTO_GAME_SPRITE_FILE (2)_34
+  - first:
+      213: 841077163655752025
+    second: NTO_GAME_SPRITE_FILE (2)_35
+  - first:
+      213: -12042082963140503
+    second: NTO_GAME_SPRITE_FILE (2)_36
+  - first:
+      213: 1220473393448047507
+    second: NTO_GAME_SPRITE_FILE (2)_37
+  - first:
+      213: 9182171654131348695
+    second: NTO_GAME_SPRITE_FILE (2)_38
+  - first:
+      213: 3150970324128763567
+    second: NTO_GAME_SPRITE_FILE (2)_39
+  - first:
+      213: -1017715343128909464
+    second: NTO_GAME_SPRITE_FILE (2)_40
+  - first:
+      213: 9086180861050013242
+    second: NTO_GAME_SPRITE_FILE (2)_41
+  - first:
+      213: -5959510448119191798
+    second: NTO_GAME_SPRITE_FILE (2)_42
+  - first:
+      213: 6952850130521762524
+    second: NTO_GAME_SPRITE_FILE (2)_43
+  - first:
+      213: 3964917302272753408
+    second: NTO_GAME_SPRITE_FILE (2)_44
+  - first:
+      213: 3616508683592429075
+    second: NTO_GAME_SPRITE_FILE (2)_45
+  - first:
+      213: 8786416238818225572
+    second: NTO_GAME_SPRITE_FILE (2)_46
+  - first:
+      213: 1279574773065159868
+    second: NTO_GAME_SPRITE_FILE (2)_47
+  - first:
+      213: 2985488232648413553
+    second: NTO_GAME_SPRITE_FILE (2)_48
+  - first:
+      213: -919209995076672418
+    second: NTO_GAME_SPRITE_FILE (2)_49
+  - first:
+      213: -8451189495323758540
+    second: NTO_GAME_SPRITE_FILE (2)_50
+  - first:
+      213: -1848626966433742432
+    second: NTO_GAME_SPRITE_FILE (2)_51
+  - first:
+      213: 1282033682887635699
+    second: NTO_GAME_SPRITE_FILE (2)_52
+  - first:
+      213: -805295234147923576
+    second: NTO_GAME_SPRITE_FILE (2)_53
+  - first:
+      213: 8314491480442659628
+    second: NTO_GAME_SPRITE_FILE (2)_54
+  - first:
+      213: -6613446218243067610
+    second: NTO_GAME_SPRITE_FILE (2)_55
+  - first:
+      213: -1118592352745953735
+    second: NTO_GAME_SPRITE_FILE (2)_56
+  - first:
+      213: 4561811720565406514
+    second: NTO_GAME_SPRITE_FILE (2)_57
+  - first:
+      213: 4431296294832814414
+    second: NTO_GAME_SPRITE_FILE (2)_58
+  - first:
+      213: 3597948492152747354
+    second: NTO_GAME_SPRITE_FILE (2)_59
+  - first:
+      213: 5644324207463212711
+    second: NTO_GAME_SPRITE_FILE (2)_60
+  - first:
+      213: 4542535289978565610
+    second: NTO_GAME_SPRITE_FILE (2)_61
+  - first:
+      213: 8071328967646348092
+    second: NTO_GAME_SPRITE_FILE (2)_62
+  - first:
+      213: 3390789586095437418
+    second: NTO_GAME_SPRITE_FILE (2)_63
+  - first:
+      213: 3657488868586114672
+    second: NTO_GAME_SPRITE_FILE (2)_64
+  - first:
+      213: 8206387094815661760
+    second: NTO_GAME_SPRITE_FILE (2)_65
+  - first:
+      213: -2074485652133106055
+    second: NTO_GAME_SPRITE_FILE (2)_66
+  - first:
+      213: -4276369064267958218
+    second: NTO_GAME_SPRITE_FILE (2)_67
+  - first:
+      213: 5527692917154236640
+    second: NTO_GAME_SPRITE_FILE (2)_68
+  - first:
+      213: -153704066877227
+    second: NTO_GAME_SPRITE_FILE (2)_69
+  - first:
+      213: 5917634053477193979
+    second: NTO_GAME_SPRITE_FILE (2)_70
+  - first:
+      213: -6889317106291128957
+    second: NTO_GAME_SPRITE_FILE (2)_71
+  - first:
+      213: 43585781946715369
+    second: NTO_GAME_SPRITE_FILE (2)_72
+  - first:
+      213: -2320429391983231305
+    second: NTO_GAME_SPRITE_FILE (2)_73
+  - first:
+      213: -7610730270890587392
+    second: NTO_GAME_SPRITE_FILE (2)_74
+  - first:
+      213: -4028450676034619419
+    second: NTO_GAME_SPRITE_FILE (2)_75
+  - first:
+      213: -6005364008419980072
+    second: NTO_GAME_SPRITE_FILE (2)_76
+  - first:
+      213: -7576916512878455796
+    second: NTO_GAME_SPRITE_FILE (2)_77
+  - first:
+      213: -230548912824442682
+    second: NTO_GAME_SPRITE_FILE (2)_78
+  - first:
+      213: -4470145106190104792
+    second: NTO_GAME_SPRITE_FILE (2)_79
+  - first:
+      213: 1524256475429441521
+    second: NTO_GAME_SPRITE_FILE (2)_80
+  - first:
+      213: 2748489454679389895
+    second: NTO_GAME_SPRITE_FILE (2)_81
+  - first:
+      213: -3954867590451408801
+    second: NTO_GAME_SPRITE_FILE (2)_82
+  - first:
+      213: -4550611884614175152
+    second: NTO_GAME_SPRITE_FILE (2)_83
+  - first:
+      213: 8951299755134532195
+    second: NTO_GAME_SPRITE_FILE (2)_84
+  - first:
+      213: -8147335193932500167
+    second: NTO_GAME_SPRITE_FILE (2)_85
+  - first:
+      213: -3554174183283970343
+    second: NTO_GAME_SPRITE_FILE (2)_86
+  - first:
+      213: 8639963794222347921
+    second: NTO_GAME_SPRITE_FILE (2)_87
+  - first:
+      213: -4969289762971973716
+    second: NTO_GAME_SPRITE_FILE (2)_88
+  - first:
+      213: -1832479588404944118
+    second: NTO_GAME_SPRITE_FILE (2)_89
+  - first:
+      213: -8599904222293352400
+    second: NTO_GAME_SPRITE_FILE (2)_90
+  - first:
+      213: -8274082301386697353
+    second: NTO_GAME_SPRITE_FILE (2)_91
+  - first:
+      213: 3887330350421637325
+    second: NTO_GAME_SPRITE_FILE (2)_92
+  - first:
+      213: 3040471025754578748
+    second: NTO_GAME_SPRITE_FILE (2)_93
+  - first:
+      213: 291127464093554069
+    second: NTO_GAME_SPRITE_FILE (2)_94
+  - first:
+      213: -7522667343925163299
+    second: NTO_GAME_SPRITE_FILE (2)_95
+  - first:
+      213: -4513652007197625796
+    second: NTO_GAME_SPRITE_FILE (2)_96
+  - first:
+      213: -1355873600906860610
+    second: NTO_GAME_SPRITE_FILE (2)_97
+  - first:
+      213: -3643725305133140558
+    second: NTO_GAME_SPRITE_FILE (2)_98
+  - first:
+      213: 8552890782069276541
+    second: NTO_GAME_SPRITE_FILE (2)_99
+  - first:
+      213: -6701010171972449516
+    second: NTO_GAME_SPRITE_FILE (2)_100
+  - first:
+      213: -8332820286240603217
+    second: NTO_GAME_SPRITE_FILE (2)_101
+  - first:
+      213: 1601555148507545947
+    second: NTO_GAME_SPRITE_FILE (2)_102
+  - first:
+      213: -763877852462649362
+    second: NTO_GAME_SPRITE_FILE (2)_103
+  - first:
+      213: -5000569554586320836
+    second: NTO_GAME_SPRITE_FILE (2)_104
+  - first:
+      213: -76950720037633022
+    second: NTO_GAME_SPRITE_FILE (2)_105
+  - first:
+      213: -5457893859004621224
+    second: NTO_GAME_SPRITE_FILE (2)_106
+  - first:
+      213: 1388976148364853339
+    second: NTO_GAME_SPRITE_FILE (2)_107
+  - first:
+      213: 1598368285113398915
+    second: NTO_GAME_SPRITE_FILE (2)_108
+  - first:
+      213: -7733596825280105566
+    second: NTO_GAME_SPRITE_FILE (2)_109
+  - first:
+      213: -92560809727130017
+    second: NTO_GAME_SPRITE_FILE (2)_110
+  - first:
+      213: -1840883438632305399
+    second: NTO_GAME_SPRITE_FILE (2)_111
+  - first:
+      213: -1386963678082742301
+    second: NTO_GAME_SPRITE_FILE (2)_112
+  - first:
+      213: -4003412909604267200
+    second: NTO_GAME_SPRITE_FILE (2)_113
+  - first:
+      213: 8826844024641820847
+    second: NTO_GAME_SPRITE_FILE (2)_114
+  - first:
+      213: 4168554905149095450
+    second: NTO_GAME_SPRITE_FILE (2)_115
+  - first:
+      213: -1512951910172907607
+    second: NTO_GAME_SPRITE_FILE (2)_116
+  - first:
+      213: -92847323554130711
+    second: NTO_GAME_SPRITE_FILE (2)_117
+  - first:
+      213: -3345808528465897632
+    second: NTO_GAME_SPRITE_FILE (2)_118
+  - first:
+      213: -1501508426046217150
+    second: NTO_GAME_SPRITE_FILE (2)_119
+  - first:
+      213: -4509376911647106258
+    second: NTO_GAME_SPRITE_FILE (2)_120
+  - first:
+      213: -9013895053877685608
+    second: NTO_GAME_SPRITE_FILE (2)_121
+  - first:
+      213: -6825486608036985510
+    second: NTO_GAME_SPRITE_FILE (2)_122
+  - first:
+      213: -386398601823173476
+    second: NTO_GAME_SPRITE_FILE (2)_123
+  - first:
+      213: 6690339977058101068
+    second: NTO_GAME_SPRITE_FILE (2)_124
+  - first:
+      213: 5796722534449316051
+    second: NTO_GAME_SPRITE_FILE (2)_125
+  - first:
+      213: 3377890864412622815
+    second: NTO_GAME_SPRITE_FILE (2)_126
+  - first:
+      213: -872222426101063488
+    second: NTO_GAME_SPRITE_FILE (2)_127
+  - first:
+      213: -773027213127261284
+    second: NTO_GAME_SPRITE_FILE (2)_128
+  - first:
+      213: -5074786038164034875
+    second: NTO_GAME_SPRITE_FILE (2)_129
+  - first:
+      213: -2377011960434945958
+    second: NTO_GAME_SPRITE_FILE (2)_130
+  - first:
+      213: -290617420560105201
+    second: NTO_GAME_SPRITE_FILE (2)_131
+  - first:
+      213: -512418884793859114
+    second: NTO_GAME_SPRITE_FILE (2)_132
+  - first:
+      213: 3367151576312500010
+    second: NTO_GAME_SPRITE_FILE (2)_133
+  - first:
+      213: 2397643766811739386
+    second: NTO_GAME_SPRITE_FILE (2)_134
+  - first:
+      213: 2193749866321453827
+    second: NTO_GAME_SPRITE_FILE (2)_135
+  - first:
+      213: -6187553383500723504
+    second: NTO_GAME_SPRITE_FILE (2)_136
+  - first:
+      213: 1752460943831582759
+    second: NTO_GAME_SPRITE_FILE (2)_137
+  - first:
+      213: 7853319292043886512
+    second: NTO_GAME_SPRITE_FILE (2)_138
+  - first:
+      213: 1346418869309728816
+    second: NTO_GAME_SPRITE_FILE (2)_139
+  - first:
+      213: -598603086418529237
+    second: NTO_GAME_SPRITE_FILE (2)_140
+  - first:
+      213: 8434989989899388085
+    second: NTO_GAME_SPRITE_FILE (2)_141
+  - first:
+      213: 1712587680484122809
+    second: NTO_GAME_SPRITE_FILE (2)_142
+  - first:
+      213: -3055304249418216343
+    second: NTO_GAME_SPRITE_FILE (2)_143
+  - first:
+      213: 7898633135015226340
+    second: NTO_GAME_SPRITE_FILE (2)_144
+  - first:
+      213: 3102440660098121461
+    second: NTO_GAME_SPRITE_FILE (2)_145
+  - first:
+      213: 1592348572667921572
+    second: NTO_GAME_SPRITE_FILE (2)_146
+  - first:
+      213: 8597105184447485998
+    second: NTO_GAME_SPRITE_FILE (2)_147
+  - first:
+      213: -3561371870273407017
+    second: NTO_GAME_SPRITE_FILE (2)_148
+  - first:
+      213: 7234070200351299792
+    second: NTO_GAME_SPRITE_FILE (2)_149
+  - first:
+      213: -6089223539171745104
+    second: NTO_GAME_SPRITE_FILE (2)_150
+  - first:
+      213: -1044544686466993193
+    second: NTO_GAME_SPRITE_FILE (2)_151
+  - first:
+      213: -1531959636938345658
+    second: NTO_GAME_SPRITE_FILE (2)_152
+  - first:
+      213: -6729809644058924266
+    second: NTO_GAME_SPRITE_FILE (2)_153
+  - first:
+      213: 6737331609914655003
+    second: NTO_GAME_SPRITE_FILE (2)_154
+  - first:
+      213: -9067160410663927674
+    second: NTO_GAME_SPRITE_FILE (2)_155
+  - first:
+      213: 3764220051122059681
+    second: NTO_GAME_SPRITE_FILE (2)_156
+  - first:
+      213: -8316066157780274579
+    second: NTO_GAME_SPRITE_FILE (2)_157
+  - first:
+      213: 6871811770807707272
+    second: NTO_GAME_SPRITE_FILE (2)_158
+  - first:
+      213: 8010416466906993951
+    second: NTO_GAME_SPRITE_FILE (2)_159
+  - first:
+      213: -6713430199825284065
+    second: NTO_GAME_SPRITE_FILE (2)_160
+  - first:
+      213: -4632980630382084525
+    second: NTO_GAME_SPRITE_FILE (2)_161
+  - first:
+      213: 2854794311788621725
+    second: NTO_GAME_SPRITE_FILE (2)_162
+  - first:
+      213: -2569757465392400467
+    second: NTO_GAME_SPRITE_FILE (2)_163
+  - first:
+      213: 7610912594909992992
+    second: NTO_GAME_SPRITE_FILE (2)_164
+  - first:
+      213: -4475655466549690068
+    second: NTO_GAME_SPRITE_FILE (2)_165
+  - first:
+      213: -4240437813841105679
+    second: NTO_GAME_SPRITE_FILE (2)_166
+  - first:
+      213: -7300298496327653923
+    second: NTO_GAME_SPRITE_FILE (2)_167
+  - first:
+      213: 8591503423809447317
+    second: NTO_GAME_SPRITE_FILE (2)_168
+  - first:
+      213: -5292882152263522339
+    second: NTO_GAME_SPRITE_FILE (2)_169
+  - first:
+      213: 2784669330453305992
+    second: NTO_GAME_SPRITE_FILE (2)_170
+  - first:
+      213: -8355335415844300689
+    second: NTO_GAME_SPRITE_FILE (2)_171
+  - first:
+      213: 6902012227299771616
+    second: NTO_GAME_SPRITE_FILE (2)_172
+  - first:
+      213: 4341804559108780066
+    second: NTO_GAME_SPRITE_FILE (2)_173
+  - first:
+      213: -3349811550550328474
+    second: NTO_GAME_SPRITE_FILE (2)_174
+  - first:
+      213: -8152389871437291456
+    second: NTO_GAME_SPRITE_FILE (2)_175
+  - first:
+      213: -5782635123879703952
+    second: NTO_GAME_SPRITE_FILE (2)_176
+  - first:
+      213: -7188399512718352337
+    second: NTO_GAME_SPRITE_FILE (2)_177
+  - first:
+      213: -6696591892400290208
+    second: NTO_GAME_SPRITE_FILE (2)_178
+  - first:
+      213: 4261328334402245935
+    second: NTO_GAME_SPRITE_FILE (2)_179
+  - first:
+      213: 823677879613626190
+    second: NTO_GAME_SPRITE_FILE (2)_180
+  - first:
+      213: -7089054157263606354
+    second: NTO_GAME_SPRITE_FILE (2)_181
+  - first:
+      213: -2747205583213714242
+    second: NTO_GAME_SPRITE_FILE (2)_182
+  - first:
+      213: 478755373743068800
+    second: NTO_GAME_SPRITE_FILE (2)_183
+  - first:
+      213: -5501490037213830590
+    second: NTO_GAME_SPRITE_FILE (2)_184
+  - first:
+      213: -4217385599113416463
+    second: NTO_GAME_SPRITE_FILE (2)_185
+  - first:
+      213: 4295861338614684704
+    second: NTO_GAME_SPRITE_FILE (2)_186
+  - first:
+      213: -7547157167662389774
+    second: NTO_GAME_SPRITE_FILE (2)_187
+  - first:
+      213: 5138492357391785631
+    second: NTO_GAME_SPRITE_FILE (2)_188
+  - first:
+      213: -4476609761841940365
+    second: NTO_GAME_SPRITE_FILE (2)_189
+  - first:
+      213: -4231891284940284001
+    second: NTO_GAME_SPRITE_FILE (2)_190
+  - first:
+      213: 3071896107298598983
+    second: NTO_GAME_SPRITE_FILE (2)_191
+  - first:
+      213: 8684343835342435582
+    second: NTO_GAME_SPRITE_FILE (2)_192
+  - first:
+      213: 6080234751081116956
+    second: NTO_GAME_SPRITE_FILE (2)_193
+  - first:
+      213: -2123861988194146147
+    second: NTO_GAME_SPRITE_FILE (2)_194
+  - first:
+      213: 4101074586770281892
+    second: NTO_GAME_SPRITE_FILE (2)_195
+  - first:
+      213: -7676609517685044194
+    second: NTO_GAME_SPRITE_FILE (2)_196
+  - first:
+      213: -6339391472584778103
+    second: NTO_GAME_SPRITE_FILE (2)_197
+  - first:
+      213: 4993923848303986302
+    second: NTO_GAME_SPRITE_FILE (2)_198
+  - first:
+      213: -4212957982832451011
+    second: NTO_GAME_SPRITE_FILE (2)_199
+  - first:
+      213: -292857954182035269
+    second: NTO_GAME_SPRITE_FILE (2)_200
+  - first:
+      213: -6859209891714761263
+    second: NTO_GAME_SPRITE_FILE (2)_201
+  - first:
+      213: 4009107022933213554
+    second: NTO_GAME_SPRITE_FILE (2)_202
+  - first:
+      213: 5209101895930666163
+    second: NTO_GAME_SPRITE_FILE (2)_203
+  - first:
+      213: 6286430613530965296
+    second: NTO_GAME_SPRITE_FILE (2)_204
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2900b4cfd226c2890800000000000000
+      internalID: -7481496931323412334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb6b90d50403c6a0800000000000000
+      internalID: -6430291419933742146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810b1342f16c11390800000000000000
+      internalID: -7849274838476541928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d3d8accaa0b9410800000000000000
+      internalID: 1484792239397616963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d167fbcc62067530800000000000000
+      internalID: 3852269197563748822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3474075dddabef270800000000000000
+      internalID: 8286265826339735363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a60974f5e5c1660800000000000000
+      internalID: 7357859654532098702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f5f0c409eb4f4f0800000000000000
+      internalID: -795801707177091191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35e2f5663bcd7010800000000000000
+      internalID: 1188329311194768698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e8402e24308d700800000000000000
+      internalID: 565205339029671554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c2e54164f0b6b30800000000000000
+      internalID: 4281532664409631764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c879b6908682a420800000000000000
+      internalID: 2639820218435205314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c43067570c6d20800000000000000
+      internalID: 3272999101049128889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0591b9d56f7aa70800000000000000
+      internalID: 8838303675632406754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44a16cb6977e7000800000000000000
+      internalID: 35597336354858060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4befe3b24b75f0a0800000000000000
+      internalID: -6848432131930068147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_16
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3a4c22a76c9f690800000000000000
+      internalID: -7567799470947785746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_17
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca702e3053ee19e0800000000000000
+      internalID: -1648630479791818039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_18
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eebe4af26904c440800000000000000
+      internalID: 4955095810725297890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036b680be99817050800000000000000
+      internalID: 5796565510061995568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_20
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afda350bb9f8a5360800000000000000
+      internalID: 7159192456499801594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_21
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 365
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cf10ef4463d7f70800000000000000
+      internalID: 9186558484852898855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b368309426b4c640800000000000000
+      internalID: 5099400946244936629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fefd8f1be681b7d0800000000000000
+      internalID: -2904391940272423179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54e630d7d181ee0800000000000000
+      internalID: -1290248870475971116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568591082ab002750800000000000000
+      internalID: 6278030673116223589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30caefb593cfb8ef0800000000000000
+      internalID: -104712843026322429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4399683038bdd1d0800000000000000
+      internalID: -3324298432685173937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002371d7cc2ef2cf0800000000000000
+      internalID: -274751684346433024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577e5afb34ada8810800000000000000
+      internalID: 1768465788209325941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_30
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2555f3c43604688f0800000000000000
+      internalID: -538672310199036590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_31
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6285e86a0f417b260800000000000000
+      internalID: 7113177160274040870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f89a99215329ce0800000000000000
+      internalID: -1399998180155093101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b35123cb7a19f0800000000000000
+      internalID: -496948730863046139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959e460693b1cab00800000000000000
+      internalID: 841077163655752025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96050a21ac735dff0800000000000000
+      internalID: -12042082963140503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_37
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3935942c51effe010800000000000000
+      internalID: 1220473393448047507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_38
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4f82f5870ad6f70800000000000000
+      internalID: 9182171654131348695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_39
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae0e73b0de7abb20800000000000000
+      internalID: 3150970324128763567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_40
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869265a994950e1f0800000000000000
+      internalID: -1017715343128909464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36c6db3a59981e70800000000000000
+      internalID: 9086180861050013242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_42
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0760a082d09b4da0800000000000000
+      internalID: -5959510448119191798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_43
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 333
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda274e1b5c7d7060800000000000000
+      internalID: 6952850130521762524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f74c58747360730800000000000000
+      internalID: 3964917302272753408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e64a49c7b603230800000000000000
+      internalID: 3616508683592429075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adeb7b440f9fe970800000000000000
+      internalID: 8786416238818225572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb499140a76f1c110800000000000000
+      internalID: 1279574773065159868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1711e14dab59e6920800000000000000
+      internalID: 2985488232648413553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e546771316f4e33f0800000000000000
+      internalID: -919209995076672418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430f6b92ee757ba80800000000000000
+      internalID: -8451189495323758540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a14287819b5856e0800000000000000
+      internalID: -1848626966433742432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f27a9297d2bac110800000000000000
+      internalID: 1282033682887635699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8894c4d404403d4f0800000000000000
+      internalID: -805295234147923576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23ebcb03f1036370800000000000000
+      internalID: 8314491480442659628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_55
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621b87c34b15834a0800000000000000
+      internalID: -6613446218243067610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_56
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936eb168e26f970f0800000000000000
+      internalID: -1118592352745953735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_57
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bb380279fce4f30800000000000000
+      internalID: 4561811720565406514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_58
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49b30c80802f7d30800000000000000
+      internalID: 4431296294832814414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_59
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55bae2471b7ee130800000000000000
+      internalID: 3597948492152747354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6abf636faa45e40800000000000000
+      internalID: 5644324207463212711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_61
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae339d267c35a0f30800000000000000
+      internalID: 4542535289978565610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_62
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3381edaeee130070800000000000000
+      internalID: 8071328967646348092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66ff43d9218e0f20800000000000000
+      internalID: 3390789586095437418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e450e6fb202c230800000000000000
+      internalID: 3657488868586114672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce56db5591f2e170800000000000000
+      internalID: 8206387094815661760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_66
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e26fc5a42f533e0800000000000000
+      internalID: -2074485652133106055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638b6d34ef847a4c0800000000000000
+      internalID: -4276369064267958218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8cb62db6f46bc40800000000000000
+      internalID: 5527692917154236640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d871bbf4347ffff0800000000000000
+      internalID: -153704066877227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_70
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8534491d8af1250800000000000000
+      internalID: 5917634053477193979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_71
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385ce7ec79a3460a0800000000000000
+      internalID: -6889317106291128957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_72
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec013aa909da9000800000000000000
+      internalID: 43585781946715369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_73
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beb67c13cd2ccfd0800000000000000
+      internalID: -2320429391983231305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_74
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b014a5421416690800000000000000
+      internalID: -7610730270890587392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_75
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e736cb24711818c0800000000000000
+      internalID: -4028450676034619419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_76
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc063b8049a8aca0800000000000000
+      internalID: -6005364008419980072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_77
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c049615639269d690800000000000000
+      internalID: -7576916512878455796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_78
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c02fbb3cfcecccf0800000000000000
+      internalID: -230548912824442682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_79
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8278613b5bad6f1c0800000000000000
+      internalID: -4470145106190104792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_80
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff8f84403f372510800000000000000
+      internalID: 1524256475429441521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_81
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6721fc898942620800000000000000
+      internalID: 2748489454679389895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50507951ec7d19c0800000000000000
+      internalID: -3954867590451408801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056b6e2e99af8d0c0800000000000000
+      internalID: -4550611884614175152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_84
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ab5d683b7693c70800000000000000
+      internalID: 8951299755134532195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9337d9bbec9deee80800000000000000
+      internalID: -8147335193932500167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_86
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deae7f39690daec0800000000000000
+      internalID: -3554174183283970343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_87
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196fbda5b4157e770800000000000000
+      internalID: 8639963794222347921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_88
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7021cf949890bb0800000000000000
+      internalID: -4969289762971973716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0328f2f589b196e0800000000000000
+      internalID: -1832479588404944118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_90
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030a2df8ca007a880800000000000000
+      internalID: -8599904222293352400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_91
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775df7f1cfd8c2d80800000000000000
+      internalID: -8274082301386697353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8f9759b5292f530800000000000000
+      internalID: 3887330350421637325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_93
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f18ffe94ce13a20800000000000000
+      internalID: 3040471025754578748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_94
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59518a9d2ea4a0400800000000000000
+      internalID: 291127464093554069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_95
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddac8e158ed1a9790800000000000000
+      internalID: -7522667343925163299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_96
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32b14fe9694c51c0800000000000000
+      internalID: -4513652007197625796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_97
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7ed99c428fe2de0800000000000000
+      internalID: -1355873600906860610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_98
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 237
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5ff68e323ee6dc0800000000000000
+      internalID: -3643725305133140558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fb3f3e9d8f1b670800000000000000
+      internalID: 8552890782069276541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b8d4780ca3103a0800000000000000
+      internalID: -6701010171972449516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3c57d4910eb5c80800000000000000
+      internalID: -8332820286240603217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b518df21cedd93610800000000000000
+      internalID: 1601555148507545947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_103
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefec20f3292665f0800000000000000
+      internalID: -763877852462649362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_104
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30cf38fb786a9ab0800000000000000
+      internalID: -5000569554586320836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20442f25abd9eeef0800000000000000
+      internalID: -76950720037633022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_106
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e5e30d37aa144b0800000000000000
+      internalID: -5457893859004621224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_107
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5007c4a272a64310800000000000000
+      internalID: 1388976148364853339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_108
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3863f6e9c7b8e2610800000000000000
+      internalID: 1598368285113398915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3371969aebca490800000000000000
+      internalID: -7733596825280105566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_110
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5687181f6827bef0800000000000000
+      internalID: -92560809727130017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_111
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dfb67144ed376e0800000000000000
+      internalID: -1840883438632305399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_112
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7428b12e380cce0800000000000000
+      internalID: -1386963678082742301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_113
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b13d17b250178c0800000000000000
+      internalID: -4003412909604267200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_114
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81e80bfdf3f7a70800000000000000
+      internalID: 8826844024641820847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_115
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ebf1ca99ea9d930800000000000000
+      internalID: 4168554905149095450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_116
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a725efe04ae00be0800000000000000
+      internalID: -1512951910172907607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_117
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 173
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4d535e9d326bef0800000000000000
+      internalID: -92847323554130711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2446246ba02992be0800000000000000
+      internalID: -1501508426046217150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_120
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b1dee27997b61c0800000000000000
+      internalID: -4509376911647106258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_121
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89258f6c43638e280800000000000000
+      internalID: -9013895053877685608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5505ccc7100741a0800000000000000
+      internalID: -6825486608036985510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c944f94d48c33aaf0800000000000000
+      internalID: -386398601823173476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_124
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47a42f13ccd8dc50800000000000000
+      internalID: 6690339977058101068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_125
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d08a57ce68127050800000000000000
+      internalID: 5796722534449316051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_126
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdff95728dda0ee20800000000000000
+      internalID: 3377890864412622815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_127
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0ed1f135e35e3f0800000000000000
+      internalID: -872222426101063488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_128
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93e6d768d7a545f0800000000000000
+      internalID: -773027213127261284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_129
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caee145cfcb299b0800000000000000
+      internalID: -5074786038164034875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_130
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a509b674738230fd0800000000000000
+      internalID: -2377011960434945958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_131
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0189f9eef487fbf0800000000000000
+      internalID: -290617420560105201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_132
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d309ab3db583e8f0800000000000000
+      internalID: -512418884793859114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_133
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 141
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc00bc4868abe20800000000000000
+      internalID: 3367151576312500010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_135
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a62461e3c17e10800000000000000
+      internalID: 2193749866321453827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_136
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da4ca31bf4612aa0800000000000000
+      internalID: -6187553383500723504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_137
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728c3d781fdf15810800000000000000
+      internalID: 1752460943831582759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_138
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf7ff599489cfc60800000000000000
+      internalID: 7853319292043886512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_139
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038e618f3d07fa210800000000000000
+      internalID: 1346418869309728816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_140
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2432981aa551b7f0800000000000000
+      internalID: -598603086418529237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_141
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4cdef84ba1f0570800000000000000
+      internalID: 8434989989899388085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_142
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b067f5fb6554c710800000000000000
+      internalID: 1712587680484122809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_143
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c8fac09f06995d0800000000000000
+      internalID: -3055304249418216343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_144
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb66bfccf49d9d60800000000000000
+      internalID: 7898633135015226340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_145
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe70e9c7551e0b20800000000000000
+      internalID: 3102440660098121461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_146
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4c8781798291610800000000000000
+      internalID: 1592348572667921572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_147
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2859a7ad9d0f4770800000000000000
+      internalID: 8597105184447485998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_150
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a8b5047bbe7ba0800000000000000
+      internalID: -6089223539171745104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_151
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3fc1354280181f0800000000000000
+      internalID: -1044544686466993193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_152
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643bd0ea3d26dbae0800000000000000
+      internalID: -1531959636938345658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61baed7e8c9ea92a0800000000000000
+      internalID: -6729809644058924266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_154
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1149fe376fcf7d50800000000000000
+      internalID: 6737331609914655003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_155
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68044e875a9fa2280800000000000000
+      internalID: -9067160410663927674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9788b51323d3430800000000000000
+      internalID: 3764220051122059681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_157
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62fbd0d3e5679c80800000000000000
+      internalID: -8316066157780274579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_158
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886675aa5649d5f50800000000000000
+      internalID: 6871811770807707272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_159
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f155eece557ba2f60800000000000000
+      internalID: 8010416466906993951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_160
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14c8037dca15d2a0800000000000000
+      internalID: -6713430199825284065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_161
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e7fcac9a854bfb0800000000000000
+      internalID: -4632980630382084525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_162
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f67fc1d444e9720800000000000000
+      internalID: 2854794311788621725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NTO_GAME_SPRITE_FILE (2)_163
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b06c4333665cd0800000000000000
+      internalID: -2569757465392400467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

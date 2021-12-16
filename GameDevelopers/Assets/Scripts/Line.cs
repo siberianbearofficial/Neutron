@@ -1,7 +1,11 @@
-﻿public class Line
+﻿using System;
+using UnityEngine;
+
+public class Line
 {
     public double x1, y1, x2, y2, k, b;
     public bool paral = false;
+    private static void print(string x) { Enemy.print_from_other_classes(x);}
     public Line((double, double) first, (double, double) second)
     {
         x1 = first.Item1; y1 = first.Item2; x2 = second.Item1; y2 = second.Item2;
@@ -17,11 +21,11 @@
             b = y1 - k * x1;
         }
     }
-    public static bool Intersects(Line line1, Line line2)
+    public static (bool, (double, double)) Intersects(Line line1, Line line2)
     {
         double x_cross, y_cross;
         bool on_x1, on_x2, on_y1, on_y2;
-        if (line1.paral && line2.paral) return false;
+        if (line1.paral && line2.paral) return (false, (double.NegativeInfinity, double.PositiveInfinity));
         if (line1.paral)
         {
             x_cross = line1.x1;
@@ -50,7 +54,54 @@
         on_y1 = (y_cross >= a1y) && (y_cross <= b1y);
         on_x2 = (x_cross >= a2x) && (x_cross <= b2x);
         on_y2 = (y_cross >= a2y) && (y_cross <= b2y);
-        return on_x1 && on_y1 && on_x2 && on_y2;
+        if (on_x1 && on_y1 && on_x2 && on_y2)
+        {
+            return (true, (x_cross, y_cross));
+        }
+        return (false, (x_cross, y_cross));
+    }
+
+    public static (double, double) Center(Line AB)
+    {
+        return ((AB.x2 - AB.x1) / 2 + AB.x1, (AB.y2 - AB.y1) / 2 + AB.y1);
+    }
+
+    public static double Angle(Line line1, Line line2)
+    {
+        double angle;
+        if (line1.paral && line2.paral)
+        {
+            angle = 0d;
+        }
+        else if (line1.paral)
+        {
+            double angle1 = Mathf.PI / 2;
+            double angle2 = Mathf.Abs(Mathf.Atan((float)line2.k));
+            angle = angle1 - angle2;
+        }
+        else if (line2.paral)
+        {
+            double angle1 = Mathf.Abs(Mathf.Atan((float)line1.k));
+            double angle2 = Mathf.PI / 2;
+            angle = angle1 - angle2;
+        }
+        else
+        {
+            double angle1 = Mathf.Atan((float)line1.k);
+            double angle2 = Mathf.Atan((float)line2.k);
+            //print("Angle1: " + angle1.ToString());
+            //print("Angle2: " + angle2.ToString());
+            //print("Angle: " + (angle1 - angle2).ToString());
+            //if ((angle1 * angle2) > 0)
+            //{
+            //    angle = angle1 - angle2;
+            //} else
+            //{
+            //    angle = Mathf.Abs((float)angle1) + Mathf.Abs((float)angle2);
+            //}
+            angle = angle1 - angle2;
+        }
+        return angle;
     }
     private static double Min(double x, double y)
     {
