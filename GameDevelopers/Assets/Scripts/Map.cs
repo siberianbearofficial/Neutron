@@ -17,9 +17,16 @@ public class Map : MonoBehaviour
         all_walls = new List<Line>();
         foreach (GameObject wall in physical_walls)
         {
-            double x1 = wall.transform.position.x, y1 = wall.transform.position.y + 3, x2 = wall.transform.position.x, y2 = wall.transform.position.y - 3;
-            Line wall_line = new Line((x1, y1), (x2, y2));
-            all_walls.Add(wall_line);
+            double x1 = wall.transform.position.x - (wall.transform.localScale.x / 2), y1 = wall.transform.position.y + (wall.transform.localScale.y / 2), x2 = wall.transform.position.x + (wall.transform.localScale.x / 2), y2 = wall.transform.position.y - (wall.transform.localScale.y / 2);
+            Line top = new Line((x1, y1), (x2, y1));
+            Line bottom = new Line((x1, y2), (x2, y2));
+            Line left = new Line((x1, y1), (x1, y2));
+            Line right = new Line((x2, y1), (x2, y2));
+            //Line wall_line = new Line((x1, y1), (x2, y2));
+            all_walls.Add(top);
+            all_walls.Add(bottom);
+            all_walls.Add(left);
+            all_walls.Add(right);
         }
         return all_walls;
     }

@@ -2,37 +2,56 @@
 using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
-    private GameObject map;
     private GameObject player;
-    private Map all_walls_ref;
+    public GameObject toCenter;
+    public GameObject toRightCorner;
+    public GameObject toLeftCorner;
+    private Rigidbody2D rb;
     private int area_size = 5;
     private UIController ui_manager;
     private bool playerInCollider = false;
+    public int speed;
+    private float deltaWaitTime;
+    public float waitTime;
+
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
+        deltaWaitTime = waitTime;
         player = GameObject.Find("player");
-        map = GameObject.Find("Map");
-        all_walls_ref = map.GetComponent<Map>();
         ui_manager = new UIController();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public static void print_from_other_classes(string x) { print(x); }
 
     private bool SeePlayer()
     {
-        Line lineRight = new Line((transform.position.x, transform.position.y), (transform.position.x + area_size, transform.position.y - area_size));
-        Line hypotenuse = new Line((transform.position.x + area_size, transform.position.y - area_size), (transform.position.x + area_size, transform.position.y + area_size));
+        //Line lineRight = new Line((transform.position.x, transform.position.y), (transform.position.x + area_size, transform.position.y - area_size));
+        //Line hypotenuse = new Line((transform.position.x + area_size, transform.position.y - area_size), (transform.position.x + area_size, transform.position.y + area_size));
+        //Line lineRight = new Line((transform.position.x, transform.position.y), (toRightCorner.transform.position.x, toRightCorner.transform.position.y));
+        Line hypotenuse = new Line((toLeftCorner.transform.position.x, toLeftCorner.transform.position.y), (toRightCorner.transform.position.x, toRightCorner.transform.position.y));
         (double, double) player_A = (player.transform.position.x - player.transform.localScale.x / 2, player.transform.position.y - player.transform.localScale.y / 2);
         (double, double) player_B = (player.transform.position.x + player.transform.localScale.x / 2, player.transform.position.y + player.transform.localScale.y / 2);
         (double, double) playerCenter = Line.Center(new Line(player_A, player_B));
         Line toPlayer = new Line((transform.position.x, transform.position.y), playerCenter);
-        double angleToPlayerRight = Line.Angle(toPlayer, lineRight);
+        //double angleToPlayerRight = Line.Angle(toPlayer, lineRight);
         //print(angleToPlayerRight);
         (bool, (double, double)) player_intersects = Line.Intersects(toPlayer, hypotenuse);
+
+        Vector2 enemyPosition = new Vector2(transform.position.x, transform.position.y);
+        Vector2 rightCornerPosition = new Vector2(toRightCorner.transform.position.x, toRightCorner.transform.position.y);
+        Vector2 vectorRight = rightCornerPosition - enemyPosition;
+        //Vector2 leftCornerPosition = new Vector2(toLeftCorner.transform.position.x, toLeftCorner.transform.position.y);
+        //Vector2 vectorLeftRight = rightCornerPosition - leftCornerPosition;
+        Vector2 playerPosition = new Vector2((float)playerCenter.Item1, (float)playerCenter.Item2);
+        //Vector2 vectorToPlayer = playerPosition - enemyPosition;
+
+
         //if (player_intersects.Item1)
             //{
             // Будем проверять, находится игрок перед стеной или за ней, для этого проверим, пересекаются ли отрезки стен и отрезок от врага до игрока. В flag2 запишем true, если перед игроком нет ни одной стены, тогда сразу return true
@@ -46,15 +65,24 @@ public class Enemy : MonoBehaviour
                 Line toWallA = new Line((transform.position.x, transform.position.y), a_wall);
                 Line toWallB = new Line((transform.position.x, transform.position.y), b_wall);
 
+            Vector2 wallPosA = new Vector2((float)a_wall.Item1, (float)a_wall.Item2);
+            Vector2 wallPosB = new Vector2((float)b_wall.Item1, (float)b_wall.Item2);
+            Vector2 wallVector = wallPosB - wallPosA;
+
+            Vector2 vectorToWallA = wallPosA - enemyPosition;
+            Vector2 vectorToWallB = wallPosB - enemyPosition;
+
                 if (Line.Intersects(toPlayer, wall_line).Item1)
                 {
                     flag2 = true;
                 }
 
-                double angleLeft = Line.Angle(toWallA, lineRight);
-                double angleRight = Line.Angle(toWallB, lineRight);
+            //double angleLeft = Line.Angle(toWallA, lineRight);
+            //double angleRight = Line.Angle(toWallB, lineRight);
+            double angleLeft = Vector2.Angle(vectorToWallA, vectorRight);
+            double angleRight = Vector2.Angle(vectorToWallB, vectorRight);
 
-                if ((angleRight < (Mathf.PI / 2)) && (angleLeft > 0))
+                if ((angleRight < 90) && (angleLeft > 0))
                 {
                     // Стена попадает в обзор противника
                     // Проецируем стену на гипотенузу
@@ -65,7 +93,7 @@ public class Enemy : MonoBehaviour
                         b_wall = (transform.position.x + area_size, transform.position.y - area_size);
                         toWallB = new Line((transform.position.x, transform.position.y), b_wall);
                     }
-                    if (angleLeft > (Mathf.PI / 2))
+                    if (angleLeft > 90)
                     {
                         // Переносим точку A в пограничный случай
                         a_wall = (transform.position.x + area_size, transform.position.y + area_size);
@@ -103,7 +131,7 @@ public class Enemy : MonoBehaviour
     {
         List<((double, double), (double, double))> list_of_walls = new List<((double, double), (double, double))>();
         
-        foreach (Line wall in all_walls_ref.GetAllWalls())
+        foreach (Line wall in player.GetComponent<Player>().GetAllWalls())
         {
             ((double, double), (double, double)) current_wall = ((wall.x1, wall.y1), (wall.x1, wall.y2));
             //print(current_wall);
@@ -113,20 +141,88 @@ public class Enemy : MonoBehaviour
         return list_of_walls;
     }
 
-    private void Update()
+    private void FollowPlayer()
+    {
+        //(double, double) player_A = (player.transform.position.x - player.transform.localScale.x / 2, player.transform.position.y - player.transform.localScale.y / 2);
+        //(double, double) player_B = (player.transform.position.x + player.transform.localScale.x / 2, player.transform.position.y + player.transform.localScale.y / 2);
+        //(double, double) playerCenter = Line.Center(new Line(player_A, player_B));
+        //Line toPlayer = new Line((transform.position.x, transform.position.y), playerCenter);
+        //Line fromCenter = new Line((transform.position.x, transform.position.y), (toCenter.transform.position.x, toCenter.transform.position.y));
+        //double angleToPlayer = Line.Angle(toPlayer, fromCenter);
+        //double angleToPlayer2 = Vector2.Angle(new Vector2((float)toPlayer.x2, (float)toPlayer.y2) - new Vector2((float)toPlayer.x1, (float)toPlayer.y1), new Vector2((float)fromCenter.x2, (float)fromCenter.y2) - new Vector2((float)fromCenter.x1, (float)fromCenter.y1));
+        //print(angleToPlayer2);
+        //transform.Rotate(new Vector3(0, 0, (float) angleToPlayer * Mathf.Deg2Rad));
+        rb.MovePosition(Vector2.MoveTowards(rb.position, new Vector2(player.transform.position.x, player.transform.position.y), speed * Time.fixedDeltaTime));
+        deltaWaitTime = waitTime;
+    }
+
+    private bool needToMoveRandomly = false, needToMirror = false;
+    private float random_x, random_y;
+    private void RandomMovement()
+    {
+        //print(deltaWaitTime);
+        if (deltaWaitTime < 0)
+        {
+            needToMoveRandomly = true;
+            needToMirror = Random.Range(0, 2) == 0;
+            bool go_right = transform.localScale.x > 0;
+            if (needToMirror)
+            {
+                go_right = !go_right;
+            }
+            random_y = rb.position.y + Random.Range(-3, 4);
+            if (go_right)
+            {
+                random_x = rb.position.x + Random.Range(0, 4);
+            }
+            else
+            {
+                random_x = rb.position.x - Random.Range(0, 4);
+            }
+            deltaWaitTime = waitTime;
+        }
+        if (needToMoveRandomly)
+        {
+            DoRandomMove();
+        }
+        deltaWaitTime -= Time.fixedDeltaTime;
+    }
+
+    private void DoRandomMove()
+    {
+        if (needToMirror)
+        {
+            needToMirror = false;
+            Mirror();
+        }
+        rb.MovePosition(Vector2.MoveTowards(rb.position, new Vector2(random_x, random_y), speed * Time.fixedDeltaTime));
+    }
+
+    private void Mirror()
+    {
+        transform.localScale = new Vector3(transform.localScale.x * (-1), transform.localScale.y, transform.localScale.z);
+    }
+
+    private void FixedUpdate()
     {
         if (playerInCollider)
         {
             if (SeePlayer())
             {
+                needToMoveRandomly = false;
                 //print("Функция выдает true");
                 ui_manager.DisplayEnemiesVision(true);
+                FollowPlayer();
             }
             else
             {
                 //print("Функция выдает false");
                 ui_manager.DisplayEnemiesVision(false);
+                RandomMovement();
             }
+        } else
+        {
+            RandomMovement();
         }
     }
 
@@ -145,5 +241,21 @@ public class Enemy : MonoBehaviour
             playerInCollider = false;
             ui_manager.DisplayEnemiesVision(false);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "player")
+        {
+            print("Collision with player");
+            player.GetComponent<SpriteRenderer>().color = Color.yellow;
+            StartCoroutine(restartScene());
+        }
+    }
+
+    private IEnumerator restartScene()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
