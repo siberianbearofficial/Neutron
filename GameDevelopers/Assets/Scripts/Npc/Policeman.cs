@@ -50,6 +50,8 @@ public class Policeman : MonoBehaviour
             else
             {
                 // Хороший сценарий, можно спокойно уйти
+                enemy.have_to_catch = false;
+                enemy.ignore = true;
             }
         }
     }
@@ -61,11 +63,26 @@ public class Policeman : MonoBehaviour
             if (condition == -1)
             {
                 player.social_status += ifNegative;
+                if (player.npc_reactions.ContainsKey(npc_index))
+                    player.npc_reactions[npc_index]--;
+                else
+                {
+                    player.npc_reactions.Add(npc_index, -1);
+                }
             }
             else
             {
                 player.social_status += ifNeutral;
+                if (player.npc_reactions.ContainsKey(npc_index))
+                    player.npc_reactions[npc_index]++;
+                else
+                {
+                    player.npc_reactions.Add(npc_index, 1);
+                }
             }
+            player.SaveGameStats();
+            player.good_choice = false;
+            player.can_speak = false;
             reacted = true;
         }
     }

@@ -18,9 +18,12 @@ public class Enemy : MonoBehaviour
     public int speed;
     private float deltaWaitTime;
     public float waitTime;
+    public bool ignore;
     private Game gameSession;
 
     public int npc_index;
+    private int npc_id;
+    public float health;
 
     // Логика:
     public bool have_to_catch = false;
@@ -28,12 +31,15 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        health = 6000;
+        ignore = false;
         gameSession = Camera.main.GetComponent<Game>();
         deltaWaitTime = waitTime;
         player = GameObject.Find("player");
         player_script = player.GetComponent<Player>();
         ui_manager = Camera.main.GetComponent<UIController>();
         rb = GetComponent<Rigidbody2D>();
+        npc_id = gameSession.AddNpc();
     }
 
     public static void print_from_other_classes(string x) { print(x); }
@@ -224,6 +230,11 @@ public class Enemy : MonoBehaviour
                         gameObject.GetComponent<Policeman>().OnAttack();
                         break;
                     }
+                case 1:
+                    {
+                        gameObject.GetComponent<Poor>().OnAttack();
+                        break;
+                    }
                 default:
                     {
                         break;
@@ -246,6 +257,11 @@ public class Enemy : MonoBehaviour
                         gameObject.GetComponent<Policeman>().OnSpeach();
                         break;
                     }
+                case 1:
+                    {
+                        gameObject.GetComponent<Poor>().OnSpeach();
+                        break;
+                    }
                 default:
                     {
                         break;
@@ -257,18 +273,24 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        print(gameSession.game_paused);
         if (!gameSession.game_paused)
         {
-            if (playerInCollider)
+            if (health < 0)
             {
-                if (player_script.in_attack)
+                Destroy(gameObject);
+            }
+            if (playerInCollider && !ignore)
+            {
+                if (player_script.npc_to_speak == npc_id)
                 {
-                    PlayerAttacks();
-                }
-                if (player_script.good_choice)
-                {
-                    PlayerSpeaks();
+                    if (player_script.in_attack)
+                    {
+                        PlayerAttacks();
+                    }
+                    if (player_script.good_choice)
+                    {
+                        PlayerSpeaks();
+                    }
                 }
                 if (SeePlayer())
                 {
@@ -278,6 +300,9 @@ public class Enemy : MonoBehaviour
                         //print("Функция выдает true");
                         //ui_manager.DisplayEnemiesVision(true);
                         FollowPlayer();
+                    } else
+                    {
+                        RandomMovement();
                     }
                 }
                 else
@@ -298,18 +323,27 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.name == "player")
         {
-            switch (npc_index)
+            if (!player_script.can_speak)
             {
-                case 0:
-                    {
-                        gameObject.GetComponent<Policeman>().WhatToDo();
-                        player_script.CanSpeak(0);
-                        break;
-                    }
-                default:
-                    {
-                        break;
-                    }
+                switch (npc_index)
+                {
+                    case 0:
+                        {
+                            gameObject.GetComponent<Policeman>().WhatToDo();
+                            player_script.CanSpeak(npc_id, 0);
+                            break;
+                        }
+                    case 1:
+                        {
+                            gameObject.GetComponent<Poor>().WhatToDo();
+                            player_script.CanSpeak(npc_id, 1);
+                            break;
+                        }
+                    default:
+                        {
+                            break;
+                        }
+                }
             }
             playerInCollider = true;
         }
@@ -327,6 +361,11 @@ public class Enemy : MonoBehaviour
                         gameObject.GetComponent<Policeman>().ActionFinished();
                         break;
                     }
+                case 1:
+                    {
+                        gameObject.GetComponent<Poor>().ActionFinished();
+                        break;
+                    }
                 default:
                     {
                         break;
@@ -341,8 +380,26 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.name == "player")
         {
             print("Collision with player");
-            player.GetComponent<SpriteRenderer>().color = Color.yellow;
-            StartCoroutine(restartScene());
+            
+            switch (npc_index)
+            {
+                case 0:
+                    {
+                        gameObject.GetComponent<Policeman>().ActionFinished();
+                        player.GetComponent<SpriteRenderer>().color = Color.yellow;
+                        StartCoroutine(restartScene());
+                        break;
+                    }
+                case 1:
+                    {
+                        gameObject.GetComponent<Poor>().ActionFinished();
+                        break;
+                    }
+                default:
+                    {
+                        break;
+                    }
+            }
         }
     }
 

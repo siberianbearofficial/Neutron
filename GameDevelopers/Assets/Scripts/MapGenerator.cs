@@ -10,6 +10,9 @@ public class MapGenerator : MonoBehaviour
     public float map_size_x, map_size_y;
     public List<(float, float)> already_spawned;
 
+    // Для спавна npc:
+    public GameObject[] npc_prefabs;
+
     public void Start()
     {
         already_spawned = new List<(float, float)>();
@@ -28,22 +31,21 @@ public class MapGenerator : MonoBehaviour
         {
             currentMap = GenerateRandomMap();
             MoveCursor(got_pos);
-            Instantiate(currentMap, cursor.transform.position, Quaternion.identity);
+            currentMap = Instantiate(currentMap, cursor.transform.position, Quaternion.identity);
             already_spawned.Add(got_pos);
+            SpawnEnemy();
         }
     }
 
-    /*private bool Contains((float, float) what)
+    public void SpawnEnemy()
     {
-        foreach((float, float) curr in already_spawned)
+        if (Random.Range(0, 2) == 1)
         {
-            if ((Mathf.Abs(curr.Item1 - what.Item1) < 0.1f) && (Mathf.Abs(curr.Item2 - curr.Item2) < 0.1f))
-            {
-                return true;
-            }
+            Vector2[] nsp = currentMap.GetComponent<Map>().GetNsp();
+            /*print((nsp[0].transform.position.x, nsp[0].transform.position.y));*/
+           Instantiate(npc_prefabs[Random.Range(0, npc_prefabs.Length)], nsp[Random.Range(0, nsp.Length)], Quaternion.identity);
         }
-        return false;
-    }*/
+    }
 
     private void MoveCursor((float, float) got_pos)
     {

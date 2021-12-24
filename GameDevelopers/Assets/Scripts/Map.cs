@@ -6,10 +6,25 @@ public class Map : MonoBehaviour
 {
     public List<GameObject> physical_walls;
     public List<Line> all_walls;
-    
+
+    // Для спавна npc:
+    [SerializeField] private GameObject[] npc_spawn_points;
+    private Vector2[] nsp;
+
+
     void Start()
     {
         all_walls = GetAllWalls();
+    }
+
+    public Vector2[] GetNsp()
+    {
+        nsp = new Vector2[npc_spawn_points.Length];
+        for (int i = 0; i < npc_spawn_points.Length; i++)
+        {
+            nsp[i] = npc_spawn_points[i].transform.position;
+        }
+        return nsp;
     }
 
     public List<Line> GetAllWalls()
