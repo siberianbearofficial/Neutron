@@ -1,2 +1,2 @@
-# GameDevelopers
-Project NTO Gamedev
+# GameDevelopers - Neutron
+Our game for NTO Gamedev
